@@ -46,8 +46,16 @@ Once the BOM is added, simply add the `io.quarkiverse.artemis:quarkus-artemis-ra
 ----
 <dependency>
     <groupId>io.quarkiverse.artemis</groupId>
-    <artifactId>quarkus-artemis-ra</artifactId>
+    <artifactId>quarkus-artemis-jms-ra</artifactId>
 </dependency>
+
+
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>artemis-hqclient-protocol</artifactId>
+</dependency>
+
+
 ----
 
 We recommend to set properties `quarkus-version` and `artemis-version` to the versions you are using/need to use.
